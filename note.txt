@@ -1,0 +1,12 @@
+1. Colne githhub repo using git clone url
+2. make one python file in this folder and try to push that file in github but error occured because we have to
+setup git in our local computer
+so for this we use follwing commands
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+And after making some changes or making some file at first we have to do follwwoing things
+a. adding that file by : git add .
+b. writing or committing some message about that changes: git commit -m "commit mesaage"
+c. git push origin main
+
