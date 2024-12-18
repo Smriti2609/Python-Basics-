@@ -33,7 +33,7 @@ for char in range(0, nr_letters):
     password_list += random.choice(letters)
     
 for char in range(0, nr_symbols):
-    password_list += random.choice(symbols)
+    password_list += random.choice(symbols)#its like password_list = password_list + random.choice(symbols)
 
 for char in range(0, nr_numbers):
     password_list += random.choice(numbers)
@@ -45,7 +45,7 @@ print(password_list)
 password = ""
 for char in password_list:
     password += char
-    
+
 print(f"Your password is: {password}")
     
 
